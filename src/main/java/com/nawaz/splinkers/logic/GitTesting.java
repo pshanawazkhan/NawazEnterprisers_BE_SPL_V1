@@ -12,7 +12,11 @@ public class GitTesting {
 		
 	}
 	
-	
+	void goodConflict() {
+		
+		System.out.println("creating good conflict");
+		
+	}
 	
 	
 	
