@@ -12,7 +12,11 @@ public class GitTesting {
 		
 	}
 	
-	
+	void goodConflict() {
+		
+		System.out.println("creating good conflict");
+		
+	}
 	
 	void badconflict() {
 		
@@ -21,7 +25,7 @@ public class GitTesting {
 	}
 	
 	
-	
+	void goodDay() {}
 	
 	
 	
