@@ -16,7 +16,7 @@ public class GitTesting {
 		
 	}
 	
-void goodBad1() {
+void goodBad() {
 		
 		
 		for(int x=10;x<15;x++) {
