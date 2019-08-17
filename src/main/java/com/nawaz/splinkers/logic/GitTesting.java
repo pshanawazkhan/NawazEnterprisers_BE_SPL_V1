@@ -6,6 +6,6 @@ public class GitTesting {
 
 	
 	
-	void BadDay() {}
+	
 	
 }
