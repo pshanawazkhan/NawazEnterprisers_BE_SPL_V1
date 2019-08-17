@@ -13,7 +13,6 @@ void bad() {
 		System.out.println("bad --------");
 		
 }
-<<<<<<< HEAD
 void bad11() {
 	
 	
@@ -22,7 +21,7 @@ void bad11() {
 	
 }
 
-=======
+
 
 void good1() {
 	
@@ -38,5 +37,5 @@ void good1() {
 
 
 
->>>>>>> 35417d6bb808f056b5c05d6edb524feab7e8d99d
+
 }
