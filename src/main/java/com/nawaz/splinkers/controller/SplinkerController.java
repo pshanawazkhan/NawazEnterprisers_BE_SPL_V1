@@ -1,6 +1,7 @@
 package com.nawaz.splinkers.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.nawaz.splinkers.entity.SplinkerError;
 import com.nawaz.splinkers.entity.Splinkers;
+import com.nawaz.splinkers.logic.CommisionLogic;
+import com.nawaz.splinkers.logic.Form;
 import com.nawaz.splinkers.messages.Response;
 import com.nawaz.splinkers.messages.ResponseMessage;
 import com.nawaz.splinkers.repository.SplinkerRepository;
@@ -127,6 +130,19 @@ public class SplinkerController {
 		return splinkerServices.getSplinkersItemsById(id);
 		
 	}
+	@Autowired
+	CommisionLogic cl;
+	@PostMapping("form")
+	
+	@ResponseBody
+	public Map<String, Object> test(@RequestBody Form f1) {
+		
+	return	cl.search(f1);
+		
+	}
+	
+	
+	
 	
 	
 }	

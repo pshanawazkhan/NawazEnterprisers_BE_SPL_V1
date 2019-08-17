@@ -19,11 +19,7 @@ public class NawazSplinkersApplication {
 	}
 
 
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> f600c69f90416f9cd8ea96f7fb4002da76929154
 	
 	
 	  
