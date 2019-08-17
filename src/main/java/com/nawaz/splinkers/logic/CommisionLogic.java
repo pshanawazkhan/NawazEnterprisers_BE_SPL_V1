@@ -42,15 +42,6 @@ public class CommisionLogic {
 		m1.put("uplode Commision No", allf.getAllcommisionUplode());
 		
 		
-		System.out.println("------------------------output ----------------------------");
-		System.out.println("allf.getCommisionFrom()--> "+allf.getCommisionFrom());
-		System.out.println("allf.getSparte()--> "+allf.getSparte());
-		System.out.println("allf.getCommisionTo()--> "+allf.getCommisionTo());
-		System.out.println("allf.getCommisionFrom()--> "+allf.getCommisionFrom());
-		System.out.println("allf.getAllcommisionUplode()--> "+allf.getAllcommisionUplode());
-		
-		System.out.println("----------------------------------------------------------------");
-		
 		return m1;
 	}
 	
