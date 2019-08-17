@@ -25,6 +25,6 @@ public class GitTesting {
 	}
 	
 	
-	
+	void goodDay() {}
 	
 }
