@@ -18,7 +18,11 @@ public class GitTesting {
 		
 	}
 	
-	
+	void badconflict() {
+		
+		System.out.println("design to create a conflict ----------");
+		
+	}
 	
 	
 	
