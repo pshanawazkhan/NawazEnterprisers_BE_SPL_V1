@@ -13,4 +13,19 @@ void bad() {
 		System.out.println("bad --------");
 		
 }
+
+void good1() {
+	
+	System.out.println("goood1");
+	System.out.println("goood1");
+	System.out.println("goood1");
+	System.out.println("goood1");
+	System.out.println("goood1");
+	System.out.println("goood1");
+	System.out.println("goood1");
+}
+
+
+
+
 }
