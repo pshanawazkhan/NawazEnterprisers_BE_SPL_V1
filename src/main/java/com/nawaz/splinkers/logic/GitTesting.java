@@ -10,12 +10,10 @@ public class GitTesting {
 		for(int x=10;x<15;x++) {
 			
 			System.out.println("-------goood---");
-			
+			System.out.println("-------bad ---");
 		}
 		
 		
 	}
-	
-	
 	
 }
