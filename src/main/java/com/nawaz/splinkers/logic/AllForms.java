@@ -1,17 +1,29 @@
 package com.nawaz.splinkers.logic;
 
+import java.util.Date;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AllForms {
 
 	
 	private String sparte;
+	
+	private Date dateTo;
+	
+	private Date dateFrom;
 	
 	private String commisionTo;
 	
 	private String commisionFrom;
 	
 	private List<String> AllcommisionUplode;
+	
+	private List<String> AllNationalTypeUplode;
+	
+	private List<String> AllChassiNoUplode;
 
 	public String getSparte() {
 		return sparte;
@@ -43,6 +55,38 @@ public class AllForms {
 
 	public void setAllcommisionUplode(List<String> allcommisionUplode) {
 		AllcommisionUplode = allcommisionUplode;
+	}
+
+	public Date getDateTo() {
+		return dateTo;
+	}
+
+	public void setDateTo(Date dateTo) {
+		this.dateTo = dateTo;
+	}
+
+	public Date getDateFrom() {
+		return dateFrom;
+	}
+
+	public void setDateFrom(Date dateFrom) {
+		this.dateFrom = dateFrom;
+	}
+
+	public List<String> getAllNationalTypeUplode() {
+		return AllNationalTypeUplode;
+	}
+
+	public void setAllNationalTypeUplode(List<String> allNationalTypeUplode) {
+		AllNationalTypeUplode = allNationalTypeUplode;
+	}
+
+	public List<String> getAllChassiNoUplode() {
+		return AllChassiNoUplode;
+	}
+
+	public void setAllChassiNoUplode(List<String> allChassiNoUplode) {
+		AllChassiNoUplode = allChassiNoUplode;
 	}
 	
 	

@@ -1,5 +1,6 @@
 package com.nawaz.splinkers.controller;
 
+import java.text.ParseException;
 import java.util.List;
 import java.util.Map;
 
@@ -135,7 +136,7 @@ public class SplinkerController {
 	@PostMapping("form")
 	
 	@ResponseBody
-	public Map<String, Object> test(@RequestBody Form f1) {
+	public Map<String, Object> test(@RequestBody Form f1) throws ParseException {
 		
 	return	cl.search(f1);
 		
