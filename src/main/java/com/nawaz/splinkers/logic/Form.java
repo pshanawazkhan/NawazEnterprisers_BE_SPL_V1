@@ -1,5 +1,6 @@
 package com.nawaz.splinkers.logic;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -12,9 +13,9 @@ public class Form {
 	
 	private String commisionFrom;
 	
-	private String dateTo;
+	private Date dateTo;
 	
-	private String dateFrom;
+	private Date dateFrom;
 	
 	private List<String> commisionUplode;
 	
@@ -54,19 +55,19 @@ public class Form {
 		this.commisionUplode = commisionUplode;
 	}
 
-	public String getDateTo() {
+	public Date getDateTo() {
 		return dateTo;
 	}
 
-	public void setDateTo(String dateTo) {
+	public void setDateTo(Date dateTo) {
 		this.dateTo = dateTo;
 	}
 
-	public String getDateFrom() {
-		return dateFrom;
+	public Date getDateFrom() {
+		return this.dateFrom;
 	}
 
-	public void setDateFrom(String dateFrom) {
+	public void setDateFrom(Date dateFrom) {
 		this.dateFrom = dateFrom;
 	}
 

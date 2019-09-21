@@ -26,12 +26,13 @@ public class CommisionLogic {
 		allf.setCommisionTo(form.getCommisionTo());
 		
 		if(form.getDateTo() != null && form.getDateFrom() != null) {
-		allf.setDateTo(TextUtil.convertStringToDate(form.getCommisionTo()));
-		allf.setDateFrom(TextUtil.convertStringToDate(form.getDateFrom()));
+		
+		
+		
+		allf.setDateFrom(form.getDateFrom());
 		}
 		
-		System.out.println(form.getDateTo());
-		System.out.println(form.getCommisionFrom());
+	
 		
 		List<String> commups = form.getCommisionUplode();
 		List<String> nationalups = form.getNationalTypeUplode();
